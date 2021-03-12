@@ -84,9 +84,8 @@ function autoFlip(initialPos) {
     //up
     var iUp = initialPos - 10;
     
-if (iUp >= 11 && iUp <= 88 && Math.floor(iUp % 10) != 0 && Math.floor(iUp % 10) != 9) {
     for (var up = 0; up >= 0; iUp = iUp - 10) {
-        
+        if (iUp >= 11 && iUp <= 88 && Math.floor(iUp % 10) != 0 && Math.floor(iUp % 10) != 9) {
         if (document.getElementById("position" + (iUp)).style.backgroundColor == opposingPlayer) {
             up = up + 1;
 
@@ -105,14 +104,13 @@ if (iUp >= 11 && iUp <= 88 && Math.floor(iUp % 10) != 0 && Math.floor(iUp % 10) 
             //console.log(up);
         }
     }
-}
+    }
 
     //up_right
     var iUpRight = initialPos - 10 + 1;
         
-if (iUpRight >= 11 && iUpRight <= 88 && Math.floor(iUpRight % 10) != 0 && Math.floor(iUpRight % 10) != 9) {
     for (var up_right = 0; up_right >= 0; iUpRight = iUpRight - 10 + 1) {
-
+        if (iUpRight >= 11 && iUpRight <= 88 && Math.floor(iUpRight % 10) != 0 && Math.floor(iUpRight % 10) != 9) {
         if (document.getElementById("position" + (iUpRight)).style.backgroundColor == opposingPlayer) {
             up_right = up_right + 1;
 
@@ -136,9 +134,8 @@ if (iUpRight >= 11 && iUpRight <= 88 && Math.floor(iUpRight % 10) != 0 && Math.f
     //right
     var iRight = initialPos + 1;
         
-if (iRight >= 11 && iRight <= 88 && Math.floor(iRight % 10) != 0 && Math.floor(iRight % 10) != 9) {
     for (var right = 0; right >= 0; iRight = iRight + 1) {
-
+        if (iRight >= 11 && iRight <= 88 && Math.floor(iRight % 10) != 0 && Math.floor(iRight % 10) != 9) {
         if (document.getElementById("position" + (iRight)).style.backgroundColor == opposingPlayer) {
             right = right + 1;
 
@@ -162,9 +159,9 @@ if (iRight >= 11 && iRight <= 88 && Math.floor(iRight % 10) != 0 && Math.floor(i
     //down_right
     var iDownRight = initialPos + 10 + 1;
 
-if (iDownRight >= 11 && iDownRight <= 88 && Math.floor(iDownRight % 10) != 0 && Math.floor(iDownRight % 10) != 9) {
+
     for (var down_right = 0; down_right >= 0; iDownRight = iDownRight + 10 + 1) {
-        
+        if (iDownRight >= 11 && iDownRight <= 88 && Math.floor(iDownRight % 10) != 0 && Math.floor(iDownRight % 10) != 9) {
         if (document.getElementById("position" + (iDownRight)).style.backgroundColor == opposingPlayer) {
             down_right = down_right + 1;
 
@@ -188,9 +185,9 @@ if (iDownRight >= 11 && iDownRight <= 88 && Math.floor(iDownRight % 10) != 0 && 
     //down
     var iDown = initialPos + 10;
         
-if (iDown >= 11 && iDown <= 88 && Math.floor(iDown % 10) != 0 && Math.floor(iDown % 10) != 9) {
-    for (var down = 0; down >= 0; iDown = iDown + 10) {
 
+    for (var down = 0; down >= 0; iDown = iDown + 10) {
+        if (iDown >= 11 && iDown <= 88 && Math.floor(iDown % 10) != 0 && Math.floor(iDown % 10) != 9) {
         if (document.getElementById("position" + (iDown)).style.backgroundColor == opposingPlayer) {
             down = down + 1;
 
@@ -214,9 +211,9 @@ if (iDown >= 11 && iDown <= 88 && Math.floor(iDown % 10) != 0 && Math.floor(iDow
     //down_left
     var iDownLeft = initialPos + 10 - 1;
 
-if (iDownLeft >= 11 && iDownLeft <= 88 && Math.floor(iDownLeft % 10) != 0 && Math.floor(iDownLeft % 10) != 9) {
+
     for (var down_left = 0; down_left >= 0; iDownLeft = iDownLeft + 10 - 1) {
-        
+        if (iDownLeft >= 11 && iDownLeft <= 88 && Math.floor(iDownLeft % 10) != 0 && Math.floor(iDownLeft % 10) != 9) {
         if (document.getElementById("position" + (iDownLeft)).style.backgroundColor == opposingPlayer) {
             down_left = down_left + 1;
 
@@ -240,9 +237,9 @@ if (iDownLeft >= 11 && iDownLeft <= 88 && Math.floor(iDownLeft % 10) != 0 && Mat
     //left
     var iLeft = initialPos - 1;
         
-if (iLeft >= 11 && iLeft <= 88 && Math.floor(iLeft % 10) != 0 && Math.floor(iLeft % 10) != 9) {
+
     for (var left = 0; left >= 0; iLeft = iLeft - 1) {
-        
+        if (iLeft >= 11 && iLeft <= 88 && Math.floor(iLeft % 10) != 0 && Math.floor(iLeft % 10) != 9) {
         if (document.getElementById("position" + (iLeft)).style.backgroundColor == opposingPlayer) {
             left = left + 1;
 
@@ -266,9 +263,9 @@ if (iLeft >= 11 && iLeft <= 88 && Math.floor(iLeft % 10) != 0 && Math.floor(iLef
     //up_left
     var iUpLeft = initialPos - 10 - 1;
         
-if (iUpLeft >= 11 && iUpLeft <= 88 && Math.floor(iUpLeft % 10) != 0 && Math.floor(iUpLeft % 10) != 9) {
+
     for (var up_left = 0; up_left >= 0; iUpLeft = iUpLeft - 10 - 1) {
-        
+        if (iUpLeft >= 11 && iUpLeft <= 88 && Math.floor(iUpLeft % 10) != 0 && Math.floor(iUpLeft % 10) != 9) {
         if (document.getElementById("position" + (iUpLeft)).style.backgroundColor == opposingPlayer) {
             up_left = up_left + 1;
 
