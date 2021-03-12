@@ -33,7 +33,18 @@ function changePlayer() {
 
 //On click lets it change to next color
 function colorSwitch(pieceId) {
+    
+    if (document.getElementById(pieceId).style.backgroundColor != "") {
+        alert("There is already a peice there");
+        return;
+    }
 
+    document.getElementById(pieceId).style.backgroundColor = currentPlayer;
+
+    autoFlip(pieceId);
+
+    changePlayer();
+/*
     console.log(document.getElementById(pieceId).style.backgroundColor);
     
     if (document.getElementById(pieceId).style.backgroundColor == "") {
@@ -43,7 +54,7 @@ function colorSwitch(pieceId) {
     } else if (document.getElementById(pieceId).style.backgroundColor == "white") {
         document.getElementById(pieceId).style.backgroundColor = "";
     }
-
+*/
 }
 
 function skipTurn() {
