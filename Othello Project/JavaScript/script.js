@@ -46,6 +46,10 @@ function colorSwitch(pieceId) {
 
 }
 
+function skipTurn() {
+    changePlayer();
+}
+
 
 function allowDrop(ev) {
     ev.preventDefault();

@@ -62,3 +62,14 @@ header {
     padding: 20px;
     border-radius: 5%;
 }
+
+#skip-turn {
+    font-size: 24px;
+    background-color: lightseagreen;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 5%;
+}
