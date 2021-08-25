@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Project Combination</title>
+        <link href="../CSS/stylesheet.css" rel="stylesheet">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="top">
+            <header>
+                <h1>Othello</h1>
+                <p>The classic Othello game on a website, drag and drop the bottom piece to place.</p>
+            </header>
+        </div>  
+    <ol class="board">
+            <!--Row 1-->
+            <div class="board-item" id="position11" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position12" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position13" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position14" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position15" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position16" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position17" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position18" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+
+            <!--Row 2-->
+            <div class="board-item" id="position21" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position22" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position23" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position24" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position25" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position26" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position27" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position28" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+
+            <!--Row 3-->
+            <div class="board-item" id="position31" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position32" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position33" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position34" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position35" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position36" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position37" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position38" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+
+            <!--Row 4-->
+            <div class="board-item" id="position41" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position42" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position43" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position44" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position45" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position46" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position47" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position48" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+
+            <!--Row 5-->
+            <div class="board-item" id="position51" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position52" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position53" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position54" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position55" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position56" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position57" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position58" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+
+            <!--Row 6-->
+            <div class="board-item" id="position61" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position62" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position63" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position64" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position65" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position66" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position67" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position68" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+
+            <!--Row 7-->
+            <div class="board-item" id="position71" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position72" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position73" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position74" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position75" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position76" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position77" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position78" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+
+            <!--Row 8-->
+            <div class="board-item" id="position81" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position82" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position83" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position84" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position85" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position86" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position87" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+            <div class="board-item" id="position88" ondrop="drop(event)" ondragover="allowDrop(event)" onclick=colorSwitch(id)> </div>
+    </ol>
+
+    <!--Player's placable peice-->
+    <div class="pieces">
+        <div id="piece" draggable="true"></div>
+    </div>
+
+    <!--Add End Game button-->
+    <button id="end-button" onclick=end()>End Game</button>
+    
+    <button id="skip-turn" onclick=skipTurn()>Skip Turn?</button>
+
+    <!--to call each script-->
+        <script src="../JavaScript/onStart.js"></script>
+        <script src="../JavaScript/script.js"></script>
+    </body>
+</html>
