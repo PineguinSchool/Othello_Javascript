@@ -1,0 +1,41 @@
+{
+  "name": "othello-with-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server public/",
+    "dev-server": "webpack-dev-server",
+    "dev": "webpack serve",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "author": "Lucas Handley",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^27.1.0",
+    "live-server": "^1.2.1",
+    "react": "^17.0.2",
+    "react-css-modules": "^4.7.11",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}
